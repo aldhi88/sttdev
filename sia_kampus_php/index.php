@@ -1,12 +1,8 @@
 <?php 
-
 session_start();
-
 if( !isset($_SESSION['login']) ){
   header("location:login.php");
 }
-
-
 ?>
 
 <!DOCTYPE html>
@@ -64,6 +60,7 @@ if( !isset($_SESSION['login']) ){
 
   <body>
 
+
     
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-content-navbar">
@@ -107,6 +104,9 @@ if( !isset($_SESSION['login']) ){
     </div>
     <!-- / Layout wrapper -->
 
+
+
+
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
     <script src="assets/vendor/libs/jquery/jquery.js"></script>
@@ -128,3 +128,5 @@ if( !isset($_SESSION['login']) ){
     <!-- Page JS -->
   </body>
 </html>
+
+
